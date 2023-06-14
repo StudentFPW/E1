@@ -1,6 +1,18 @@
+.header{
+    background-color: red;
+}
+
+.inner-header{
+    padding:20px;
+}
+
+.logo-container{
+    color: white;
+    position:relative; left:10px; top:-1px;
+}
+
 .navigation{
-    float: right;
-    height: 100%;
+    position:fixed; right:20px; top:30px;
 }
 
 .navigation a{
@@ -8,7 +20,6 @@
     display: table;
     float: left;
     padding: 0px 20px;
-    background-color: #101010;
 }
 
 .navigation a li{
@@ -19,6 +30,26 @@
 }
 
 .navigation a:hover{
-    background-color: gray;
-    color: #101010;
+    background-color: black;
+    color: #FF8C00;
+}
+
+.content{
+    padding: 10px;
+}
+
+.header-container{
+    position:relative; right:-800px; top:-5px;
+}
+
+.hr-container{
+  border-top: 1px solid grey;
+}
+
+.image-container{
+    position:relative; right:-200px; top:50px;
+}
+
+.text-container{
+    position:relative; right:-700px; top:-580px;
 }
