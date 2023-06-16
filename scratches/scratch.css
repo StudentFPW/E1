@@ -59,7 +59,7 @@
 }
 
 .hr-container{
-    border-top: 3px solid red;
+    border-top: 3px solid black;
 }
 
 .image-container{
@@ -69,8 +69,15 @@
     top: 150px;
 }
 
+.image_license-container{
+    padding: 10px;
+    position: absolute;
+    left: 850px;
+    top: 300px;
+}
+
 .text-container{
     position: absolute;
-    left: 510px;
+    left: 710px;
     top: 150px;
 }
